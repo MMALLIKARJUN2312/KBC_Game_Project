@@ -1,0 +1,78 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.join-section,
+.quiz-section {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+h1 {
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+  width: calc(100% - 22px);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.options button {
+  margin: 10px;
+  width: 180px;
+  font-size: 16px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option-row {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 10px; 
+}
+
+.option-row label {
+  margin-left: 8px; 
+}
+
+.result-message {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 23px;
+}
+
